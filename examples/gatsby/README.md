@@ -10,7 +10,7 @@ as rendering specific parts of your site with Builder.io content via GraphQL que
 See:
 - For a more advanced example and a starter check out [gatsby-starter-builder](https://github.com/BuilderIO/gatsby-starter-builder)
 
-- [src/components/hero.builder.ts](src/components/hero.builder.ts) for an example of using a custom react component in the Builder.io visiaul editor. See a more rich example of a whole design system of components [here](https://github.com/BuilderIO/builder/tree/master/examples/react-design-system)
+- [src/components/hero.builder.ts](src/components/hero.builder.ts) for an example of using a custom react component in the Builder.io visual editor. See a more rich example of a whole design system of components [here](https://github.com/BuilderIO/builder/tree/master/examples/react-design-system)
 - [src/pages/example.tsx](src/pages/example.tsx) for using GraphQL to query and render Builder.io components and pages manually in parts of your Gatsby site and content
 - [@builder.io/gatsby](https://github.com/builderio/builder/tree/master/packages/gatsby) the plugin used in this example to generate pages dynamically.
 - [gatsby-config.js](gatsby-config.js) to set your API key
@@ -36,7 +36,7 @@ See:
 
 When you deploy this to a live or staging environment, you can change the preview URL for your model globally from [builder.io/models](https://builder.io/models) (see more about models [here](https://builder.io/c/docs/guides/getting-started-with-models) and preview urls [here](https://builder.io/c/docs/guides/preview-url))
 
-This example create pages dynamically based on the url you add to your entries on [Builder.io](https://www.builder.io), if you want to create a page manually, do not include the model in your `tempaltes` config as above, add a file under the `pages` folder and query all the entries your page needs from Builder.io, for example:
+This example create pages dynamically based on the url you add to your entries on [Builder.io](https://www.builder.io), if you want to create a page manually, do not include the model in your `templates` config as above, add a file under the `pages` folder and query all the entries your page needs from Builder.io, for example:
 
 ```ts
 import React from 'react';
